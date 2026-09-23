@@ -1,0 +1,8 @@
+requests>=2.31
+dnspython>=2.6
+python-whois>=0.9.4
+cryptography>=42.0
+reportlab>=4.1
+tldextract>=5.1
+openai>=1.30
+openpyxl>=3.1

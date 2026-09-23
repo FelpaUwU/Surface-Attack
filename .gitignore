@@ -1,0 +1,25 @@
+# secrets
+.env
+.env.sh
+
+# virtualenvs (rebuild with requirements.lock.txt)
+.venv/
+.venv.stale-*/
+
+# python
+__pycache__/
+*.pyc
+
+# client data / PII / business-confidential — kept out of GitHub on purpose,
+# these live only in OneDrive (data/hunter_cache/ has real emails and names
+# collected via Hunter.io; the xlsx/csv files are Kennertech's client DB).
+data/*.xlsx
+data/*.csv
+data/batches/
+data/hunter_cache/
+data/test/
+output/
+
+# scan run logs (contain client names and scan details)
+run_sweeps.log
+run_regen.log
